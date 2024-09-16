@@ -24,6 +24,7 @@ Course about HTML5, CSS, and Layout
         <hr><!-- linea -->
         <a href="https://onglass.net" rel="noopener" target="_blank">OnGlass.Net</a>
         <br><!-- salto de linea-->
-        <img src="https://xperti.io/wp-content/uploads/2023/08/xblog-Encapsulation.png" alt="imagen external">
+        <img src="https://xperti.io/wp-content/uploads/2023/08/xblog-Encapsulation.png" 
+        alt="imagen external">
     </body>
 </htm>

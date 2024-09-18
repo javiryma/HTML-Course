@@ -10,9 +10,9 @@ Course about HTML5, CSS, and Layout
     </head>
     <body>
         <code>
-            <h1> h1 tag</h1>
-            <h2> h2 tag</h2>
-            <h3> h3 tag</h3>
+            &lt;h1> h1 tag</h1>
+            &lt;h2> h2 tag</h2>
+            &lt;h3> h3 tag</h3>
             <h4> h4 tag</h4>
             <h5> h5 tag</h5>
             <h6> h6 tag</h6>

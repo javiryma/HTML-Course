@@ -22,9 +22,9 @@ Course about HTML5, CSS, and Layout
                 Lorem ipsum dolor sit amet consec
                 <strong>THIS IS a Strong TAG Lorem ipsum dolor, sit amet consectetur adipisicing.</strong> 
             </p>
-            <hr><!-- linea -->
+            <hr>
             <a href="https://onglass.net" rel="noopener" target="_blank">OnGlass.Net</a>
-            <br><!-- salto de linea-->
+            <br>
             <img src="https://xperti.io/wp-content/uploads/2023/08/xblog-Encapsulation.png" 
             alt="imagen external">
         </code>

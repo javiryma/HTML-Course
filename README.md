@@ -1,15 +1,15 @@
 # HTML-Course
 Course about HTML5, CSS, and Layout
 
-
-<!-- <!DOCTYPE html>
+<code>
+<!DOCTYPE html>
 <htm>
     <head>
         <title>Title page</title>
         <meta charset="utf-8">
     </head>
     <body>
-        <code>
+
             <h1> h1 tag</h1>
             <h2> h2 tag</h2>
             <h3> h3 tag</h3>
@@ -27,6 +27,7 @@ Course about HTML5, CSS, and Layout
             <br>
             <img src="https://xperti.io/wp-content/uploads/2023/08/xblog-Encapsulation.png" 
             alt="imagen external">
-        </code>
+        
     </body>
-</htm> -->
+</htm>
+</code>

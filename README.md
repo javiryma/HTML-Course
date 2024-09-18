@@ -9,6 +9,7 @@ Course about HTML5, CSS, and Layout
         <meta charset="utf-8">
     </head>
     <body>
+    <p>`
         <h1> h1 tag</h1>
         <h2> h2 tag</h2>
         <h3> h3 tag</h3>
@@ -26,5 +27,6 @@ Course about HTML5, CSS, and Layout
         <br><!-- salto de linea-->
         <img src="https://xperti.io/wp-content/uploads/2023/08/xblog-Encapsulation.png" 
         alt="imagen external">
+        `</p>
     </body>
 </htm>

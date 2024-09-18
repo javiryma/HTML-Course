@@ -2,7 +2,7 @@
 Course about HTML5, CSS, and Layout
 
 
-<!DOCTYPE html>
+/*<!DOCTYPE html>
 <htm>
     <head>
         <title>Title page</title>
@@ -30,3 +30,4 @@ Course about HTML5, CSS, and Layout
         </code>
     </body>
 </htm>
+*/

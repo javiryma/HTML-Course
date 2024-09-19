@@ -3,6 +3,8 @@ Course about HTML5, CSS, and Layout
 
 En HTML, los elementos de contenido se utilizan para estructurar y organizar el contenido de una página web. Aquí tienes una lista de algunos de los tipos de elementos de contenido más comunes:
 
+Reference Page
+https://developer.mozilla.org/es/docs/Web/HTML
 
 # Elementos de Texto
 p: Define un párrafo.<br>
@@ -41,3 +43,21 @@ section: Define una sección genérica de contenido.<br>
 meta: Define metadatos sobre el documento HTML.<br>
 link: Define la relación entre el documento actual y un recurso externo.<br>
 style: Define estilos CSS para el documento.<br>
+
+
+# CSS Tools
+
+Design
+https://www.figma.com/es-la/
+
+Material Desing
+https://m3.material.io/
+
+Bootstrap
+https://getbootstrap.com/
+
+Colores
+https://uicolors.app/create
+
+Text
+https://typescale.com/

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Home Page</title>
+        <style>
+            .homeContainer
+            {
+                display: grid;
+                grid-template-areas: 
+                'header  header header'
+                'nav nav nav'
+                '. content  .'
+                'footer  footer footer';
+                grid-gap: 10px;
+                padding: 10px;
+            }
+            .homeContainer div
+            {
+                padding: 20px;
+                text-align: center;
+                background-color: #f1f1f1;
+            }
+            .header {
+                grid-area: header;
+            }
+            .nav {
+                grid-area: nav;
+            }
+            .content {
+                grid-area: content;
+                background-color: #2196F3;
+            }
+            .aside {
+                grid-area: aside;
+            }
+            .footer {
+                grid-area: footer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="homeContainer">
+            <div class="header">Header</div>
+            <div class="nav">Nav</div>
+            <div class="content">content</div>
+            <div class="footer">footer</div>
+        </div>
+    </body>
+</html>

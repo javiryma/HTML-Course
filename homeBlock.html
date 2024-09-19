@@ -8,10 +8,10 @@
             {
                 display: grid;
                 grid-template-areas: 
-                "header",
-                "migas"
-                "content",
-                "footer";
+                'header  header header'
+                'nav nav nav'
+                '. content  .'
+                'footer  footer footer';
                 grid-gap: 10px;
                 padding: 10px;
             }
@@ -20,6 +20,22 @@
                 padding: 20px;
                 text-align: center;
                 background-color: #f1f1f1;
+            }
+            .header {
+                grid-area: header;
+            }
+            .nav {
+                grid-area: nav;
+            }
+            .content {
+                grid-area: content;
+                background-color: #2196F3;
+            }
+            .aside {
+                grid-area: aside;
+            }
+            .footer {
+                grid-area: footer;
             }
         </style>
     </head>

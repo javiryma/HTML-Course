@@ -52,11 +52,15 @@ Sizing
 Unidades Relativas
 Las unidades relativas se basan en el tamaño de otros elementos y pueden cambiar en función del contexto. Algunas de las más comunes son:
 
-em: Relativa al tamaño de la fuente del elemento padre. Por ejemplo, si el tamaño de la fuente del elemento padre es 16px, 1em será igual a 16px2.
-rem: Relativa al tamaño de la fuente del elemento raíz (generalmente el elemento <html>). Por ejemplo, si el tamaño de la fuente del elemento raíz es 16px, 1rem será igual a 16px2.
-% (porcentaje): Relativa al tamaño del elemento contenedor. Por ejemplo, width: 50% hará que el elemento tenga un ancho del 50% del contenedor2.
-vw (viewport width): 1vw es igual al 1% del ancho de la ventana gráfica.
-vh (viewport height): 1vh es igual al 1% de la altura de la ventana gráfica
+em: Relativa al tamaño de la fuente del elemento padre. Por ejemplo, si el tamaño de la fuente del elemento padre es 16px, 1em será igual a 16px2. <br>
+
+rem: Relativa al tamaño de la fuente del elemento raíz (generalmente el elemento <html>). Por ejemplo, si el tamaño de la fuente del elemento raíz es 16px, 1rem será igual a 16px2.<br>
+
+% (porcentaje): Relativa al tamaño del elemento contenedor. Por ejemplo, width: 50% hará que el elemento tenga un ancho del 50% del contenedor2.<br>
+
+vw (viewport width): 1vw es igual al 1% del ancho de la ventana gráfica.<br>
+
+vh (viewport height): 1vh es igual al 1% de la altura de la ventana gráfica<br>
 
 Design
 https://www.figma.com/es-la/

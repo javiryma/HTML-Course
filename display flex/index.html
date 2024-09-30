@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Display mode Flex</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styleFlexAlign.css">
+    </head>
+    <body class="content-flex">
+        <header class="header">
+            <h1>
+                Style Assigned Flex-Grow 0
+            </h1>
+        </header>
+        <div id="container" class="container">
+            <div>
+                <h1 id="title">
+                    Style Assigned Flex-Grow 0
+                </h1>
+            </div>
+            <div>
+                <button type="button" onclick="changeStyle();"> change</button>
+            </div>
+            <div class="container-example">
+                <div class="container-stretch">
+                    <div class="uno">Div 1</div>
+                    <div class="dos">Div 22<br>Div 22</div>
+                    <div class="tres">Div 333<br>Div 333<br>Div 333</div>
+                    <p>align-items: stretch; </p>
+                </div>
+                <div class="container-start">
+                    <div class="uno">Div 1</div>
+                    <div class="dos">Div 22<br>Div 22</div>
+                    <div class="tres">Div 333<br>Div 333<br>Div 333</div>
+                    <p>align-items: flex-start; </p>
+                </div>
+                <div class="container-end">
+                    <div class="uno">Div 1</div>
+                    <div class="dos">Div 22<br>Div 22</div>
+                    <div class="tres">Div 333<br>Div 333<br>Div 333</div>
+                    <p>align-items: flex-end; </p>
+                </div>
+                <div class="container-center">
+                    <div class="uno">Div 1</div>
+                    <div class="dos">Div 22<br>Div 22</div>
+                    <div class="tres">Div 333<br>Div 333<br>Div 333</div>
+                    <p>align-items: center </p>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <h3>
+                Style Assigned Flex-Grow 0
+            </h3>
+            <p>
+                Flex-Grow need assign the container grow 
+            </p>
+        </footer>
+        <script src="styleDisplay.js"></script>
+    </body>
+</html>

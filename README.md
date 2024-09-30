@@ -44,6 +44,10 @@ meta: Define metadatos sobre el documento HTML.<br>
 link: Define la relación entre el documento actual y un recurso externo.<br>
 style: Define estilos CSS para el documento.<br>
 
+# Atajos
+div*5: Crea 5 divs
+div.uno: crea <div class="uno"></div>
+div#uno: crea <div id="uno"></div>
 
 # CSS Tools
 

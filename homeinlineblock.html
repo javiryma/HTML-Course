@@ -9,39 +9,30 @@
         margin: 0;
         padding: 0;
     }
-    .grid-container {
-      display: grid;
-      grid-template-areas:
-        'header header header'
-        'nav main aside'
-        'footer footer footer';
-      grid-gap: 10px;
+    .homecontainer {
+      display: flex;
+
       padding: 10px;
     }
     .header {
-      grid-area: header;
       background-color: #2196F3;
       padding: 20px;
       text-align: center;
     }
     .nav {
-      grid-area: nav;
       background-color: #f1f1f1;
       padding: 20px;
     }
     .main {
-      grid-area: main;
       background-color: #f1f1f1;
       padding: 20px;
       height: auto;
     }
     .aside {
-      grid-area: aside;
       background-color: #f1f1f1;
       padding: 20px;
     }
     .footer {
-      grid-area: footer;
       background-color: #2196F3;
       padding: 20px;
       text-align: center;
@@ -49,12 +40,10 @@
   </style>
 </head>
 <body>
-  <div class="grid-container">
+  <div class="homecontainer">
     <div class="header">Header</div>
     <div class="nav">Navigation</div>
-    <div class="main">
-      {% include overflow.html %}
-    </div>
+    <div class="main">Main Content</div>
     <div class="aside">Aside</div>
     <div class="footer">Footer</div>
   </div>

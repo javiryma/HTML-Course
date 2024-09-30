@@ -11,32 +11,40 @@
             }
             .homeContainer
             {
-                display: block;
-                height: 100%;                               
-                padding: 20px;
+                display: grid;
+                grid-template-areas: 
+                'header header header  header header'
+                '. nav nav nav .'
+                '. content content content  content'
+                '. footer  footer footer .';
+                grid-gap: 10px;
+                padding: 10px;
             }
             .homeContainer div
             {
                 padding: 20px;
                 text-align: center;
-                margin: 2px;
+                
             }
             .header {
-                height: 100px;
+                grid-area: header;
                 background-color: #f1f1f1;
             }
             .nav {
-               height: 20px;;
-               background-color: #f1f1f1;
+                grid-area: nav;
+                background-color: #f1f1f1;
             }
             .content {
-                height: 100px;
+                grid-area: content;
                 background-color: #2196F3;
             }
-            
+            .aside {
+                background-color: #f1f1f1;
+                grid-area: aside;
+            }
             .footer {
-               height: 60px;
-               background-color: #f1f1f1;
+                background-color: #f1f1f1;
+                grid-area: footer;
             }
         </style>
     </head>
